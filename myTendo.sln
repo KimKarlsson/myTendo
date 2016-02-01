@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C30D3C4F-7B2F-4255-A372-5B57827F815F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{35830D58-958D-4E4A-8C02-D99DD7666010}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "myTendo", "src\myTendo\myTendo.xproj", "{806CA316-9E65-4D53-BFB3-40D1AE5CC72C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{806CA316-9E65-4D53-BFB3-40D1AE5CC72C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{806CA316-9E65-4D53-BFB3-40D1AE5CC72C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{806CA316-9E65-4D53-BFB3-40D1AE5CC72C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{806CA316-9E65-4D53-BFB3-40D1AE5CC72C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{806CA316-9E65-4D53-BFB3-40D1AE5CC72C} = {C30D3C4F-7B2F-4255-A372-5B57827F815F}
+	EndGlobalSection
+EndGlobal
